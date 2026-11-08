@@ -1,6 +1,7 @@
 // The app's real login and data loading against a running backend (never production).
 // Run from version_mobile/ with a test account of that backend:
 //   E2E_API=http://127.0.0.1:8000/api/v1 E2E_LOGIN=... E2E_PASSWORD=... flutter test test_e2e
+// ignore_for_file: avoid_print, invalid_use_of_visible_for_testing_member
 import 'dart:io';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
