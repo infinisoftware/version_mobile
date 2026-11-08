@@ -1,0 +1,42 @@
+name: gift_exchange
+description: "The Gift Exchange Global - mobile app (members)."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  dio: ^5.11.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.5.0
+  flutter_secure_storage: ^11.2.0
+  go_router: ^18.1.3
+  image_picker: ^1.2.4
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  # Plus Jakarta Sans, the website's font (SIL Open Font License, assets/fonts/OFL.txt)
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-400.ttf
+        - asset: assets/fonts/PlusJakartaSans-500.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-600.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-700.ttf
+          weight: 700
+        - asset: assets/fonts/PlusJakartaSans-800.ttf
+          weight: 800
